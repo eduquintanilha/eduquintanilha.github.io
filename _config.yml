@@ -38,6 +38,7 @@ social:
   email: tryagain@domain.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
+    - https://linkedin.com/in/eduquintanilha
     - https://twitter.com/DontTryOnly # change to your twitter homepage
     - https://github.com/eduquintanilha # change to your github homepage
     # Uncomment below to add more social links
@@ -73,8 +74,7 @@ theme_mode: dark # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: https://pbs.twimg.com/profile_images/1540436945603629056/woInXOsy_400x400.jpg
-
+avatar: 
 # boolean type, the global switch for TOC in posts.
 toc: true
 
