@@ -15,7 +15,7 @@ This writeup shows how an unsanitized field and an implementation failure in a J
 ## The journey
 I started my recon looking all the application endpoints and headers, looking for entry points or something that pay my attention. I noticed that the application was a Server-Side Rendering (SSR) and started to look for injection points, like Shop Categories parameters, but it's not reflected and there was filtered my payloads.
 
-![alt text](intigriti-challenge-1125-page.png)
+![alt text](/assets/img/intigriti-challenge-1125/intigriti-challenge-1125-page.png)
 
 So, I was noticed the admin routes and started to look for the `session` and `token` Cookies. I spent a LOT of time on this, trying to broke the JWT token and Session secrets, but for my sadness, it is unsuccessful.
 
@@ -96,7 +96,7 @@ display_name={{lipsum.__globals__.os.popen('cat ./.aquacommerce/019a82cf.txt').r
 ```
 
 ### We got the Flag!!
-![alt text](intigriti-challenge-1125-got-flag.png)
+![We got the Flag!](/assets/img/intigriti-challenge-1125/intigriti-challenge-1125-got-flag.png)
 
 ### Flag:
 >INTIGRITI{019a82cf-REDACTED-2d0ef30bea32}
